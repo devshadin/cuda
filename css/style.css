@@ -1,0 +1,382 @@
+html {
+    scroll-behavior: smooth;
+}
+body a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+body ul {
+    list-style: none;
+}
+.container {
+    max-width: 1050px;
+    width: 90%;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.bar a {
+    color: #fff;
+    float: right;
+}
+
+.header-area {
+    background: #87509c;
+    padding: 50px 0 150px;
+}
+.header-menu ul {
+    float: right;
+}
+.header-area ul li {
+    margin: 0 20px;
+    border-radius: 4px;
+    padding: 5px 8px;
+}
+.header-area ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.header-area ul li:hover {
+    background: #643a79;
+}
+.header-area ul li:nth-child(1) {
+    background: #643a79;
+}
+.header-bottom {
+    margin-top: 150px;
+}
+.header-title h1 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+.btn {
+    color: #fff;
+    background: #eb7d4b;
+    padding: 21px 31px;
+    max-width: 283px;
+    width: 281px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.header-area .btn {
+    border-bottom: 4px solid #bd6657;
+    transition: 0.4s;
+}
+.header-area .btn:hover {
+    border-bottom: 4px solid transparent;
+    background: #f39c12;
+    color: #34495e;
+}
+/* ==========================
+services section css start
+========================== */
+.section-title h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 37px;
+    letter-spacing: 3px;
+
+}
+.section-title p {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+.services-section {
+    background: #17c2a4;
+}
+hr {
+    color: #767575;
+    width: 83px;
+    padding: 2px 0;
+    margin: 15px auto;
+}
+.section-padd {
+    padding: 70px 0;
+}
+.services {
+    margin-top: 81px;
+}
+.service-item img {
+    margin-bottom: 30px;
+}
+.section-item h3 {
+    margin: 23px 0;
+}
+/* ==========================
+team section css Start
+========================== */
+.team-section {
+    background: #e7f1f8;
+}
+.team-section img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.team-item h3 {
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.team-item h4 {
+    font-weight: 600;
+    color: #67c2e9;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.team {
+    margin-top: 57px;
+}
+.team-social a {
+    display: inline-block;
+    color: #fff;
+    height: 31px;
+    width: 31px;
+    background: #bdd1df;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 31px;
+    font-size: 15px;
+    margin: 0 5px;
+}
+.team-item p {
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.team h2,
+h3,
+p {
+    color: #3c4761;
+}
+/* ==========================
+skill section css
+========================== */
+.protfolio-section {
+    color: #3c4761;
+    background: #ffdd99;
+}
+.skills {
+    margin-top: 50px;
+}
+.catagori ul li {
+    margin: 5px 10px 30px 0;
+}
+.catagori ul li a {
+    color: #3c4761;
+    background: #ebc985;
+    padding: 5px 10px;
+    width: 80px;
+    display: block;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.protfolio-item img {
+    max-width: 100%;
+}
+.protfolio-item {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.protfolio-item h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.protfolio-section .btn {
+    background: #17c2a4;
+    border-bottom: 4px solid #89c193;
+    transition: 0.5s;
+}
+.protfolio-section .btn:hover {
+    background: #fff;
+    border-bottom: 4px solid transparent;
+    color: #17c2a4;
+}
+/* ================== */
+/* skill bars */
+/* =================== */
+svg.radial-progress text {
+    fill: #393939 !important;
+}
+svg.radial-progress circle {
+    stroke-width: 5 !important;
+}
+svg.web-design circle {
+    stroke: #30BAE7 !important;
+}
+svg.html-css circle {
+    stroke: #D74680 !important;
+}
+svg.graphic-design circle {
+    stroke: #15C7A8 !important;
+}
+svg.ui-xi circle {
+    stroke: #EB7D4B !important;
+}
+/* ==========================
+client section css start
+========================== */
+.testimonial-section {
+    background: #d74680;
+    color: #fff;
+}
+.client-pic img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 39px;
+    margin-top: 10px;
+}
+
+.client-details p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+.client-details h4 {
+    color: #fd9;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.client-details h3 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 4px 0;
+}
+.clients {
+    margin: 43px 15px 60px;
+}
+/* ==========================
+contact section css start
+========================== */
+.contact-section {
+    background: #3c5499;
+}
+.contact-section .container {
+    max-width: 870px;
+    width: 60%;
+}
+.contact-form {
+    margin-top: 50px;
+}
+textarea::-webkit-input-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+textarea::-moz-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+textarea:-ms-input-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+textarea::-ms-input-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+textarea::placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+form input::-webkit-input-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+form input::-moz-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+form input:-ms-input-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+form input::-ms-input-placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+form input::placeholder {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.contact-form input[type="text"] {
+    margin-right: 4%;
+    float: left;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 48%;
+    display: block;
+    border: none;
+    background: #273a71;
+    padding: 2%;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact-form textarea {
+    width: 100%;
+    margin: 30px 0;
+    display: block;
+    border: none;
+    background: #273a71;
+    min-height: 170px;
+    padding: 2%;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact-form input[type="submit"] {
+    background: #30bae7;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.contact-form input[type="submit"]:hover {
+    background: #1abc9c;
+    color: #ecf0f1;
+}
+/* ==========================
+footer section css start
+========================== */
+.footer-section {
+    background: #344b8e;
+    padding: 30px 0;
+}
+.footer-section ul li {
+    margin-right: 30px;
+}
+.footer-section ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 21px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.footer-section ul li a:hover {
+    color: #5181b9;
+}
+

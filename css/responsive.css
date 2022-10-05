@@ -1,0 +1,73 @@
+@media all and (max-width:767px) {
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header-menu ul {
+        float: none;
+        justify-content: center;
+    }
+    br {
+        display: none;
+    }
+    .header-bottom {
+        margin-top: 50px;
+    }
+    .header-area {
+        background: #87509c;
+        padding: 40px 0;
+    }
+    .contact-section .container {
+        width: 90%;
+    }
+    .clients {
+        margin: 0 15px 41px;
+    }
+    .skill-item {
+        margin-bottom: 30px;
+    }
+}
+@media all and (max-width:500px) {
+    .clients {
+        margin: 0 2px 45px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .client-pic img {
+        margin: auto;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 23px;
+    }
+}
+@media all and (max-width:638px) {
+    .header-menu ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 17px;
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 29px;
+    }
+    .team-section {
+        margin-bottom: 30px;
+    }
+
+    .bar {
+        margin-bottom: 20px;
+    }
+    .header-top .logo {
+        display: none;
+    }
+
+}
+@media all and (min-width:639px) {
+    .bar {
+        display: none;
+    }
+}
